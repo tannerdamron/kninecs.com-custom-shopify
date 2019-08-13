@@ -1,0 +1,58 @@
+<style>
+  
+  .about-knine {
+    background: #eee;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top:50px;
+  }
+  
+  .knine-team {
+    padding: 0 20px 0 0;
+  }
+  
+  @media screen and (max-width:480px) {
+      
+    .about-knine {
+    	display: block;
+  	}
+    
+    .knine-team {
+      padding:0;
+    }
+    
+  }
+  
+  
+</style>
+
+<div class="about-knine">
+  <div class="knine-team"><img src="https://cdn.shopify.com/s/files/1/0033/8742/4814/files/about-knine-coffee.jpg?9513"></div>
+  <div style="padding: 10px 20px;max-width: 530px;">
+    <h1>We are KNINE Coffee &amp; Strength</h1>
+    <p style="padding-top:50px;">It takes two to tango and three to... KNINE. Alex, Emmett, Morgan. Connected through a passion for coffee, dogs, and health, we came together to provide the world with a health conscious and generous approach to coffee. Join the Pack!</p>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Knine About Section",
+    "settings": [
+      
+    ],
+    "presets": [
+      {
+        "name": "Knine About Section",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
